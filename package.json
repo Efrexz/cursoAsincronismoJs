@@ -1,0 +1,16 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js"
+  },
+  "keywords": [
+    "asincronismo",
+    "javascript"
+  ],
+  "author": "efrain andrade",
+  "license": "MIT",
+  "type": "module"
+}
