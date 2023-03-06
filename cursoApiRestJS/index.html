@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Random Dogs</title>
+</head>
+<body>
+    <div class="tittle">
+        <h1>API-Dogs Workshop</h1>
+        <p>🐶API consumption practice with JavaScript💻</p>
+    </div>
+
+    <h2>Seccion imagenes aleatorias</h2>
+    <hr>
+    <div class="buttonsOptions">
+        <button id="generador"><b>Generar otras imágenes</b></button>
+    </div>
+
+    <section  id="containerRandom">
+
+        <article >
+            <button id="btnAdd1" >Añadir a favoritos</button>
+            <img id="imagenAleatoria1" src="" alt="imagen perrito">
+        </article>
+
+        <article>
+            <button id="btnAdd2">Añadir a favoritos</button>
+            <img id="imagenAleatoria2" src="" alt="imagen perrito">
+        </article>
+
+        <article>
+            <button id="btnAdd3">Añadir a favoritos</button>
+            <img id="imagenAleatoria3" src="" alt="imagen perrito">
+        </article>
+
+    </section>
+
+    <section id="formContainer">
+        <form id="formulario">
+            <h2>Agrega tu imagen de perritos</h2>
+            <input type="file" name="file" id="file">
+            <input type="number" name="file" id="file">
+            <button type="button" onclick="subirImagen()">Subir imagen</button>
+        </form>
+    </section>
+
+    <h2>Seccion imagenes favoritas</h2>
+    <hr>
+
+    <section id="containerFavorites">
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
